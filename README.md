@@ -13,3 +13,15 @@ Credit goes to [Julius Brussee](https://github.com/JuliusBrussee) and all contri
 
 If you want to use it simply copy-paste the `# caveman` section of the `.gihub/copilot-instructions.md` into your own and switch to your desired mode via chat e.g. `/caveman ultra`.
 
+## RTK - Rust Token Killer
+
+RTK's original description:
+> Your AI agent is drowning in CLI noise. Fix it. RTK compresses command outputs before they reach the context window. Better reasoning. Longer sessions. Lower costs.
+
+> See [reasons](https://www.rtk-ai.app/#problem) and [repo](https://github.com/rtk-ai/rtk) for more information.
+
+To install it for your GitHub Copilot first you need to get the `.exe` for your operation system, see [Downloads](https://github.com/rtk-ai/rtk/releases) and put it under `C:\Program Files\rtk`. Also add this exact path to your system variables `Path`.
+
+After this is done simply run `rtk init -g --copilot` in the desired project to set it up. This will generate an entrance for it in your `copilot-instructions.md` and it will also create the `rtk-rewrite.json` hook (can both be seen in this repo to check if it worked or to copy-paste it).
+
+Use `rtk gain` to see statistics of its effects.
