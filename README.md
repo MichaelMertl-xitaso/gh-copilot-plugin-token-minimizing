@@ -25,3 +25,18 @@ To install it for your GitHub Copilot first you need to get the `.exe` for your 
 After this is done simply run `rtk init -g --copilot` in the desired project to set it up. This will generate an entrance for it in your `copilot-instructions.md` and it will also create the `rtk-rewrite.json` hook (can both be seen in this repo to check if it worked or to copy-paste it).
 
 Use `rtk gain` to see statistics of its effects.
+
+## More direct Tools will come in the future...
+
+## General Tips
+- [GitHub Copilot Token Optimization Guide by Muhammad Haseeb Akram](https://medium.com/@haseeb-dev/github-copilot-token-optimization-guide-5a32ec9465ea) - some points:
+    - use scoped, selection-based prompts because broad questions cause copilot to search the full repo
+    - prefer inline suggestions ([code completion billing](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing)) over chat
+    - be careful what is attached to your chat window
+    - use the [correct model](https://docs.github.com/de/copilot/reference/ai-models/model-comparison) for the task
+- [Optimize AI credit usage in and by VS Code](https://code.visualstudio.com/docs/agents/guides/optimize-usage) - some points:
+    - set your thinking effort of the model to something fitting, not every request needs a high thinking effort, use the different modes to adapt it to your task
+    - start a new chat for new tasks to clear your context window -> less input tokens
+    - disable unneeded tools and MCP servers
+    - use /compact to manage your context if the conversations gets to long
+- More general tips will come in the future...
