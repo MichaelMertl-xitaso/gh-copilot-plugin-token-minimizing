@@ -13,6 +13,8 @@ Credit goes to [Julius Brussee](https://github.com/JuliusBrussee) and all contri
 
 If you want to use it simply copy-paste the `# caveman` section of the `.gihub/copilot-instructions.md` into your own and switch to your desired mode via chat e.g. `/caveman ultra`.
 
+**Important**: Instead of `caveman`, you could also use the prefix `be brief` in your prompts, which works in a similar way. You can find more information in this [video](https://www.youtube.com/watch?v=wijoYNiZq3M) by Max Taylor.
+
 ## RTK - Rust Token Killer
 
 RTK's original description:
