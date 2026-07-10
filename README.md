@@ -39,6 +39,15 @@ Credit goes to [Dietrich Gebert](https://github.com/DietrichGebert), see the ori
 
 If you want to use it simply copy-paste the `# Ponytail, lazy senior dev mode` section of the `.gihub/copilot-instructions.md` into your own. 
 
+## Headroom
+
+Headroom's description:
+> Headroom compresses everything your AI agent reads — tool outputs, logs, RAG chunks, files, and conversation history — before it reaches the LLM. Same answers, fraction of the tokens.
+
+Credit goes to [Tejas Chopra](https://github.com/chopratejas) and all contributors to the original project, see the original [headroom repo](https://github.com/headroomlabs-ai/headroom) for more information. 
+
+Best approach for setting headroom up for GitHub Copilot Plugin inside e.g. Visual Studio Code is still to be done from my side. There is a way to set it up provided by [Antoine Mahassadi aka damnthonyy](https://github.com/damnthonyy). You can find a whole discussion about this topic [here](https://github.com/headroomlabs-ai/headroom/issues/962) and his integration fork of headroom into vscode [here](https://github.com/damnthonyy/vscode/tree/feat/headroom-proxy-for-chat-copilot). Feel free to use his approach.
+
 ## More direct Tools will come in the future...
 
 ## General Tips
