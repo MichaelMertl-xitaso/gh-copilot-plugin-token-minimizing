@@ -28,6 +28,17 @@ After this is done simply run `rtk init -g --copilot` in the desired project to 
 
 Use `rtk gain` to see statistics of its effects.
 
+## Ponytail
+
+Ponytail's description:
+> You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one.
+> Ponytail puts him inside your AI agent.
+> The rule was never "fewest tokens." It is: write only what the task needs, and never cut validation, error handling, security, or accessibility. The code ends up small because it is necessary, not golfed. Lower cost and latency are a side effect on the models that follow the ladder; a terse reasoning model that spends thinking tokens deliberating the rungs can go the other way (on GPT-5.5 it does).
+
+Credit goes to [Dietrich Gebert](https://github.com/DietrichGebert), see the original [ponytail repo](https://github.com/DietrichGebert/ponytail) for more information.
+
+If you want to use it simply copy-paste the `# Ponytail, lazy senior dev mode` section of the `.gihub/copilot-instructions.md` into your own. 
+
 ## More direct Tools will come in the future...
 
 ## General Tips
